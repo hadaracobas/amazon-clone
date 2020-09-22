@@ -1,3 +1,21 @@
+## Amazon Clone
+https://clone-f7e8e.web.app
+
+The purpose of this project: a private project I built to improve my coding skills.
+
+Few points about this project:
+* Technology: React js
+* State: hooks
+* React Context API - Data Layers
+* React Router
+* Design: Stick to the amazon design
+* User Authentication +  Hosting: firebase
+
+
+
+------
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
