@@ -14,7 +14,7 @@ function Header() {
       auth.signOut();
     }
   };
-
+  console.log("baset is: ", basket);
   return (
     <header className="header">
       <div className="header__logoContainer">

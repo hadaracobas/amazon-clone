@@ -11,7 +11,7 @@ import Checkout from "./components/Checkout";
 import Login from "./components/Login";
 
 function App() {
-  const [{ user }, dispatch] = useStateValue();
+  const [{ basket, user }, dispatch] = useStateValue();
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((authUser) => {
@@ -34,6 +34,7 @@ function App() {
       unsubscribe();
     };
   }, []);
+
   console.log("user is: ", user);
   return (
     <Router>
